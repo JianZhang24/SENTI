@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+
+# Local datasets and derived encodings
+IEMOCAP/
+MELD/
+encoded_data.pkl
+encoded_data.json
+
+# Local pretrained weights
+pretrained_model/
+
+# Training runs, checkpoints, and logs
+iemocap-best-model/
+meld-best-model/
+iemocap-ws*/
+meld-ws*/
+mustard-ws*/
+memotion-ws*/
+mosei-ws*/
+ckpt-*/
+ckpt-best/
+*.log
+
+# Paper assets kept local
+*.pdf
+method.tex
+
+# Local utility outputs
+predict_real.json
